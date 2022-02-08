@@ -7,6 +7,7 @@ A simple image optimizer.
 - Maintains aspect ratio, in other words the script does not simply resize but shrinks and maintains spect ratio to be under 1600px width or height
 
 # How to use
-1. `pip install requirements.txt`
+1. `brew install pillow`
+1. `pip install -r requirements.txt`
 2. `cd /inside/directory/of/images/to/optimize`
 3. `python3 /path/to/bulk_convert_jpeg.py /directory/to/output/images/`
